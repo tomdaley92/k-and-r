@@ -1,26 +1,21 @@
-# Thomas Daley
-# December 12, 2018
-
-# A generic build template for MacOS C/C++ programs
-
 # executable name
 EXE = app
 
 # C compiler
-CC = clang
+CC = gcc
 # C++ compiler
-CXX = clang++
+CXX =
 # linker
-LD = clang++
+LD = gcc
 
 # C flags
-CFLAGS = 
+CFLAGS = -Wall
 # C++ flags
 CXXFLAGS = 
 # C/C++ flags
-CPPFLAGS = -Wall
+CPPFLAGS =
 # dependency-generation flags
-DEPFLAGS = -MMD -MP
+DEPFLAGS =
 # linker flags
 LDFLAGS = 
 # library flags
