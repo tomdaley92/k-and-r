@@ -14,7 +14,7 @@ PROGRAMS = \
 	word_counting \
 	arrays \
 	functions \
-	call_by_value \
+	arguments \
 	character_arrays \
 	external_variables
 
