@@ -11,21 +11,25 @@ Code samples from [_**The C Programming Language** (2nd Edition)_](https://githu
 <br>
 
 1. You can compile each program individually.
+
     ```bash
     make hello_world
     ```
 
-2. Or you can compile all the programs at once.
+1. Or you can compile all of the programs at once.
+
     ```bash
     make
     ```
 
-    And then run any one of them.
+1. And then you can run any one of them.
+
     ```bash
     ./hello_world
     ```
 
-3. Clean up by deleting created objects and executables.
+1. Clean up by deleting created objects and executables.
+
     ```bash
     make clean
     ```
