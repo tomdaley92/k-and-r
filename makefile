@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c89
+CFLAGS = -std=c89 -ansi -D_POSIX_C_SOURCE=199506L
 
 PROGRAMS = \
 	hello_world \
@@ -12,7 +12,10 @@ PROGRAMS = \
 	character_counting_2 \
 	line_counting \
 	word_counting \
-	arrays
+	arrays \
+	functions \
+	call_by_value \
+	character_arrays
 
 .PHONY: all
 all: $(PROGRAMS)
