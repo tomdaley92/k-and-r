@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c89 -ansi -D_POSIX_C_SOURCE=199506L
+CFLAGS = -std=c89 -ansi -D_POSIX_C_SOURCE=200112L
 
 PROGRAMS = \
 	hello_world \
