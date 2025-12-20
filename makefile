@@ -1,9 +1,5 @@
 CC = gcc
 CFLAGS = -Wall -std=c89
-COMPILE.c = $(CC) $(CFLAGS) -o $@ -c
-
-%.o: %.c
-	$(COMPILE.c) $<
 
 PROGRAMS = \
 	hello_world \
