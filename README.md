@@ -10,7 +10,7 @@ Code samples from [_**The C Programming Language** (2nd Edition)_](https://githu
 
 <br>
 
-1. You can compile each program individually.
+1. You can compile each program individually. See [makefile](makefile) for the full list of programs.
 
     ```bash
     make hello_world
