@@ -15,7 +15,8 @@ PROGRAMS = \
 	arrays \
 	functions \
 	call_by_value \
-	character_arrays
+	character_arrays \
+	external_variables
 
 .PHONY: all
 all: $(PROGRAMS)
