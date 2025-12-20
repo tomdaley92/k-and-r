@@ -9,6 +9,7 @@ PROGRAMS = \
 	hello_world \
 	variables \
 	for_statement \
+	symbolic_constants \
 	character_input_output
 
 .PHONY: all
