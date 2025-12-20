@@ -15,11 +15,6 @@ Code samples from [_**The C Programming Language** (2nd Edition)_](https://githu
     make hello_world
     ```
 
-    And then run them.
-    ```bash
-    ./hello_world
-    ```
-
 2. Or you can compile all the programs at once.
     ```bash
     make
@@ -27,7 +22,7 @@ Code samples from [_**The C Programming Language** (2nd Edition)_](https://githu
 
     And then run any one of them.
     ```bash
-    ./symbolic_constants
+    ./hello_world
     ```
 
 3. Clean up by deleting created objects and executables.
