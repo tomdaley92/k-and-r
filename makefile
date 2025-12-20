@@ -1,11 +1,8 @@
 CC = gcc
-LD = $(CC)
 
 CFLAGS = -Wall -std=c89
-LDFLAGS =
 
 COMPILE.c = $(CC) $(CFLAGS) -o $@ -c
-LINK.o = $(LD) $(LDFLAGS) -o $@
 
 %.o: %.c
 	$(COMPILE.c) $<
