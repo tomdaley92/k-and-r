@@ -1,12 +1,18 @@
 CC = gcc
-CFLAGS = -Wall -std=c89
+CFLAGS = -std=c89
 
 PROGRAMS = \
 	hello_world \
 	variables \
 	for_statement \
 	symbolic_constants \
-	character_input_output
+	file_copying_1 \
+	file_copying_2 \
+	character_counting_1 \
+	character_counting_2 \
+	line_counting \
+	word_counting \
+	arrays
 
 .PHONY: all
 all: $(PROGRAMS)
