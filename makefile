@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -std=c89 -ansi -D_POSIX_C_SOURCE=199506L
+CFLAGS = -std=c89 -Wall -Wpedantic -Wno-strict-prototypes -Wno-implicit-int
 
 PROGRAMS = \
 	hello_world \
@@ -24,3 +24,4 @@ all: $(PROGRAMS)
 .PHONY: clean
 clean:
 	$(RM) $(PROGRAMS) *.o
+	$(RM) -r *.dSYM
