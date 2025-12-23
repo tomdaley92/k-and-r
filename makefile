@@ -24,4 +24,3 @@ all: $(PROGRAMS)
 .PHONY: clean
 clean:
 	$(RM) $(PROGRAMS) *.o
-	$(RM) -r *.dSYM
